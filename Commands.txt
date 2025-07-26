@@ -1,0 +1,15 @@
+git config --global user.name “sm”
+git config --global user.email "contact.smtanvir@gmail.com"
+git init
+git add -A
+git commit -m "Repo created & kaj suruuuuuuu"
+git branch -M main
+git remote add origin https://github.com/seddike-tanvir/PH_B12_A02--Responsive-Flowers.git
+git push -u origin main
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+:root{
+    --text_color_dark_level_1: #252432;
+    --text_color_dark_level_2: #8987A1;
+    --text_color_orange_level_1: #E95A08;
+}
+
+
+
+.display_flex{
+    display: flex;
+}
+.hidden{
+    display: none;
+}

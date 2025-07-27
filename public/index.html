@@ -13,17 +13,18 @@
     <!-- Css file linked -->
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/shared_style.css">
     <link rel="stylesheet" href="./assets/css/header_section.css">
     <link rel="stylesheet" href="./assets/css/main_section.css">
     <link rel="stylesheet" href="./assets/css/footer_section.css">
 </head>
 <body>
-    <header class="header_section">
+    <header class="header_section display_flex">
         <div class="header_logo_wrapper">
             <img class="header_logo_img" src="./assets/files/logo.png" alt="Faugei logo">
         </div>
-        <div class="header_navMenu_wrapper">
-            <div class="header_navMenu_link_wrapper">
+        <div class="header_navMenu_wrapper display_flex">
+            <div class="header_navMenu_link_wrapper display_flex">
                 <a href="" class="header_navMenu_link_a navLinkSelected">Home</a>
                 <a href="" class="header_navMenu_link_a">Shop</a>
                 <a href="" class="header_navMenu_link_a">About Us</a>
@@ -33,5 +34,18 @@
             </div>
         </div>
     </header>
+
+    <main class="main_section">
+        <div class="hero_banner_wrapper display_flex">
+            <div class="hero_banner_textarea_wrapper display_flex">
+                <p class="hero_banner_titleTxt">ALWAYS <span>FRESH<br>FLOWERS</span></p>
+                <p class="hero_banner_detailsTxt">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="hero_banner_img_wrapper">
+                <img class="hero_banner_img" src="./assets/files/hero-flower.png" alt="">
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>

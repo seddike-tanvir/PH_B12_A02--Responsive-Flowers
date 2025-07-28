@@ -9,7 +9,7 @@
 
 
 
-/* Hero banner area start here*/
+/*! Hero banner area start here -----------------------------------------------------*/
 
 .hero_banner_wrapper{
     /* border: 1px solid; */
@@ -30,7 +30,7 @@
 
 
 .hero_banner_titleTxt{
-    font-family: "Noto Serif", serif;
+    font-family: var(--font_family_Noto_Serif);
     font-size: 3.7rem;
     font-weight: bold;
     color: #000000;
@@ -39,13 +39,14 @@
 }
 
 .hero_banner_titleTxt > span{
+    font-family: var(--font_family_Noto_Serif);
     color: var(--text_color_orange_level_1)
     
 }
 
 .hero_banner_detailsTxt{
     color: var(--text_color_dark_level_2);
-    font-family: "Inter", sans-serif;
+    font-family: var(--font_family_Inter);
     margin-top: 1rem;
     font-size: 1.2rem;
 }
@@ -67,12 +68,14 @@
         justify-self: center;
         width: 100%;
     }
+
     .hero_banner_wrapper{
         /* border: 1px solid; */
         flex-direction: column-reverse;
         width: 100%;
         margin-top: .5rem;
     }
+
     .hero_banner_textarea_wrapper{
         flex-direction: column;
         /* border: 1px solid; */
@@ -80,6 +83,7 @@
         align-self: center;
         margin-bottom: 1rem;
     }
+
     .hero_banner_titleTxt{
         font-size: 3rem;
         text-align: left;
@@ -88,7 +92,6 @@
     .hero_banner_img_wrapper{
         width: 100%;
         margin-bottom: 2rem;
-
     }
 
     .hero_banner_img{
@@ -98,3 +101,171 @@
 }
 
 /* Hero banner area end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! Product card area start here -----------------------------------------------------*/
+.product_card_area_wrapper{
+    flex-direction: column;
+    margin-top: 7rem;
+    /* border: 1px solid; */
+}
+
+.product_card_header_wrapper{
+    flex-direction: column;
+    /* border: 1px solid; */
+    margin-bottom: 2rem;
+}
+
+.product_card_header_title{
+    color: #000000;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid; */
+    font-family: var(--font_family_Noto_Serif);
+}
+
+.product_card_header_title > span{
+    font-family: var(--font_family_Noto_Serif);
+    color: var(--text_color_orange_level_1);
+}
+
+.product_card_header_discription{
+    color: var(--text_color_dark_level_2);
+    font-size: 1.2rem;
+    text-align: center;
+    /* border: 1px solid; */
+    font-family: var(--font_family_Inter);
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: .4rem;
+}
+
+.product_card_cardBody_wrapper{
+    /* grid-template-columns: repeat(4,1fr); */
+    /* border: 1px solid; */
+    gap: 1.5rem;
+    justify-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product_card_cardBody_card{
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid #00000009;
+    width: 16rem;
+    /* padding: 2px; */
+    transition: .4s ease-in-out;
+}
+
+.product_card_cardBody_card:hover{
+    border: 2px solid var(--text_color_orange_level_1);
+    /* border-radius: 5px; */
+}
+
+/* .product_card_cardBody_card:hover .product_card_cardBody_card_cardImg > img{
+    border-radius: 2px;
+} */
+
+.product_card_cardBody_card_cardImg{
+    flex-direction: column;
+}
+
+.product_card_cardBody_card_cardImg > img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 5px; */
+    /* transition: .4s ease-in-out; */
+
+}
+
+.product_card_cardBody_card_cardDetails{
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.product_card_cardBody_card_cardDetails > p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.product_card_cardBody_card_cardDetails_price{
+    font-weight: bold;
+}
+
+.product_card_cardBody_card_cardBtn > button{
+    width: 100%;
+    border: none;
+    padding: .7rem 0rem;
+    background-color: var(--text_color_orange_level_1);
+    color: aliceblue;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s ;
+}
+
+.product_card_cardBody_card_cardBtn > button:hover{
+    background-color: var(--text_color_orange_level_2);
+}
+
+
+@media screen and (max-width:750px) {
+
+}
+
+/* Product card area end here -*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! About seller area start here -----------------------------------------------------*/
+.aboutSeller_area_wrapper{
+    flex-direction: column;
+    margin-top: 7rem;
+    /* border: 1px solid; */
+}

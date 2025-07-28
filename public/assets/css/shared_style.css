@@ -2,12 +2,18 @@
     --text_color_dark_level_1: #252432;
     --text_color_dark_level_2: #8987A1;
     --text_color_orange_level_1: #E95A08;
+    --text_color_orange_level_2: #ca4a00;
+    --font_family_Inter: "Inter", sans-serif;
+    --font_family_Noto_Serif: "Noto Serif", serif;
 }
 
 
 
 .display_flex{
     display: flex;
+}
+.display_grid{
+    display: grid;
 }
 .hidden{
     display: none;

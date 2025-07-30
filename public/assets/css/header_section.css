@@ -51,6 +51,15 @@
     font-weight: bold;
 }
 
+.header_navMenu_actionBtn{
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+.header_navMenu_actionBtn:hover{
+    color: var(--text_color_orange_level_1);
+}
+
 
 
 @media screen and (max-width:750px) {

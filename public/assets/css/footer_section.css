@@ -40,6 +40,7 @@
 .newsletter_card_wrapper_imgWrapper > img{
     width: 100%;
     height: max-content;
+    min-height: 25rem;
     object-fit: fill;
 }
 
@@ -114,6 +115,57 @@
     border: 1px solid var(--text_color_orange_level_2);
 }
 
+
+
+
+
+@media screen and (max-width:810px) {
+    .newsletter_card_wrapper{
+        width: 100%;
+        max-width: 1280px;
+        margin: 7rem auto 7rem;
+        position: relative;
+
+    }
+
+    .newsletter_card_wrapper_txtItemWrapper > .form{
+        /* border: 1px solid; */
+        width: 95%;
+        flex-direction: column;
+        gap: .5rem;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+
+    .newsletter_card_wrapper_txtItemWrapper > .form > .emailInput{
+        width: 100%;
+        border: 2px solid #ffffffc4;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .newsletter_card_wrapper_txtItemWrapper > .form > .emailInput:focus{
+        border: 2px solid var(--text_color_orange_level_1);
+    }
+
+    .newsletter_card_wrapper_txtItemWrapper > .form > .emailInput:hover{
+        background-color: #fffffff5;
+    }
+
+    .newsletter_card_wrapper_txtItemWrapper > .form > .submitBtn{
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 10px;
+        width: max-content;
+        padding: 1rem 2rem;
+    }
+
+    .newsletter_card_wrapper_txtItemWrapper > .form > .submitBtn:hover{
+        background-color: var(--text_color_orange_level_2);
+        border: 1px solid var(--text_color_orange_level_2);
+    }
+}
 
 /* NewsLetter area end here -*/
 
@@ -251,7 +303,7 @@
 @media screen and (max-width:810px) {
     .footer_banner_bannerArea{
         flex-direction: column;
-        justify-content: left;        /* border: 1px solid; */
+        justify-content: left; 
         flex-direction: column;
     }
 
@@ -273,10 +325,7 @@
     .footer_banner_bannerArea_linkBox02_wrapper{
         margin-bottom: 2rem
     }
-    .footer_banner_bannerArea_social_wrapper{
-    .footer_banner_bannerArea_linkBox01_wrapper{
-        margin-bottom: ;
-    }
+
 
 }
 

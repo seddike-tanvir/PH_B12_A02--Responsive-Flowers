@@ -1,0 +1,138 @@
+.footer_section{
+    justify-self: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:750px) {
+    .footer_section{
+        justify-self: center;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+
+    }
+}
+
+
+
+
+
+
+
+
+/*! NewsLetter area start here -----------------------------------------------------*/
+.newsletter_card_wrapper{
+    width: 100%;
+    margin: 7rem 0 7rem;
+    position: relative;
+}
+
+.newsletter_card_wrapper_imgWrapper{
+    width: 100%;
+    height: max-content;
+}
+
+.newsletter_card_wrapper_imgWrapper > img{
+    width: 100%;
+    height: max-content;
+    object-fit: fill;
+}
+
+.newsletter_card_wrapper_txtItemWrapper{
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    margin: auto;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00000057;
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .txt1{
+    text-align: center;
+    font-family: var(--font_family_Noto_Serif);
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #fff;
+    /* margin-top: -2rem; */
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form{
+    /* border: 1px solid; */
+    width: 80%;
+    max-width: 800px;
+    justify-self: center;
+    margin: 2.5rem auto 0;
+    justify-content: space-between;
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form > .emailInput{
+    width: 75%;
+    padding: 1rem 1.7rem;
+    outline: none;
+    border: 2px solid #ffffffc4;
+    font-size: 1rem;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0;
+    background-color: #ffffffc4;
+
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form > .emailInput:focus{
+    border-left: 2px solid var(--text_color_orange_level_1);
+    border-top: 2px solid var(--text_color_orange_level_1);
+    border-right: none;
+    border-bottom: 2px solid var(--text_color_orange_level_1);
+    background-color: #fffffff5;
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form > .emailInput:hover{
+    background-color: #fffffff5;
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form > .submitBtn{
+    width: 25%;
+    padding: 1rem 0;
+    border: 1px solid var(--text_color_orange_level_1);
+    background-color: var(--text_color_orange_level_1);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.newsletter_card_wrapper_txtItemWrapper > .form > .submitBtn:hover{
+    background-color: var(--text_color_orange_level_2);
+    border: 1px solid var(--text_color_orange_level_2);
+}
+
+
+/* Offer area end here -*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -25,9 +25,11 @@
 
 /*! NewsLetter area start here -----------------------------------------------------*/
 .newsletter_card_wrapper{
-    width: 100%;
-    margin: 7rem 0 7rem;
+    width: 85%;
+    max-width: 1280px;
+    margin: 7rem auto 7rem;
     position: relative;
+
 }
 
 .newsletter_card_wrapper_imgWrapper{
@@ -113,12 +115,170 @@
 }
 
 
-/* Offer area end here -*/
+/* NewsLetter area end here -*/
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!  Footer area start here ---------------------------------------------------------------*/
+.footer_banner_wrapper{
+    flex-direction: column;
+    /* border: 1px solid; */
+    justify-self: center;
+    margin: 12rem auto 0rem;
+    width: 85%;
+    max-width: 1280px;
+    gap: 5vh;
+}
+
+.footer_banner_bannerArea{
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    width: 100%;
+    align-items: flex-start;
+    margin: 0rem 0 2rem;    
+}
+
+.footer_banner_bannerArea_brandInfo_wrapper{
+    /* border: 1px solid; */
+    width: 40%;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -1rem;
+}
+
+.footer_banner_bannerArea_brandInfo_logo{
+    /* border: 1px solid; */
+    width: 8rem;
+    flex-direction: column;
+
+}
+
+.footer_banner_bannerArea_brandInfo_about{
+    color: var(--text_color_dark_level_2);
+    font-size: 1.2rem;
+    max-width: 95%;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.footer_banner_bannerArea_linkBox01_wrapper,
+.footer_banner_bannerArea_linkBox02_wrapper{
+    width: 15%;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 1rem;
+    /* border: 1px solid; */
+}
+
+.footer_banner_bannerArea_linkBox01_wrapper > a,
+.footer_banner_bannerArea_linkBox02_wrapper > a{
+    text-align: left;
+    margin-bottom: .7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text_color_dark_level_2);
+    transition: .5s al ease-in-out;
+    /* border: 1px solid; */
+    width: max-content;
+}
+
+.footer_banner_bannerArea_linkBox01_wrapper > a:hover,
+.footer_banner_bannerArea_linkBox02_wrapper > a:hover{
+    text-decoration: underline;
+    color: var(--text_color_orange_level_1);
+}
+
+.footer_banner_bannerArea_social_wrapper{
+    width: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.footer_banner_creditArea{
+    flex-direction: column;
+    justify-self: center;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;
+    margin: 0 auto 1.5rem;
+}
+
+.footer_banner_creditArea > p{
+    padding: 5px 0;
+    text-align: center;
+    font-size: .9rem;
+    color: var(--text_color_dark_level_2);
+
+}
+
+.footer_banner_creditArea > p  a,
+.footer_banner_creditArea > p  a{
+    text-decoration: underline;
+    color: var(--text_color_dark_level_2);
+    transition: .5s al ease-in-out;
+    width: max-content;
+}
+
+.footer_banner_creditArea > p  a:hover,
+.footer_banner_creditArea > p  a:hover{
+    color: var(--text_color_orange_level_1);
+}
+
+/* .footer_banner_creditArea > p  span{
+    font-weight: bold;
+} */
+
+@media screen and (max-width:810px) {
+    .footer_banner_bannerArea{
+        flex-direction: column;
+        justify-content: left;        /* border: 1px solid; */
+        flex-direction: column;
+    }
+
+    .footer_banner_bannerArea_brandInfo_wrapper,
+    .footer_banner_bannerArea_linkBox01_wrapper,
+    .footer_banner_bannerArea_linkBox02_wrapper,
+    .footer_banner_bannerArea_social_wrapper{
+        width: 100%;
+    }
+
+    .footer_banner_bannerArea_brandInfo_wrapper{
+        margin-bottom: 2.5rem;
+        width: 70%;
+    }
+
+    .footer_banner_bannerArea_linkBox01_wrapper{
+        margin-bottom: 0;
+    }
+    .footer_banner_bannerArea_linkBox02_wrapper{
+        margin-bottom: 2rem
+    }
+    .footer_banner_bannerArea_social_wrapper{
+    .footer_banner_bannerArea_linkBox01_wrapper{
+        margin-bottom: ;
+    }
+
+}
 
 
 

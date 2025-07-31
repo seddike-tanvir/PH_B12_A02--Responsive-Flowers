@@ -392,7 +392,9 @@
 .offer_card_area_wrapper{
     flex-direction: column;
     /* border: 1px solid; */
-    margin: 8rem 0 7rem;
+    width: 85%;
+    margin: 8rem auto 5rem;
+
 }
 
 .offer_card_header_wrapper{
@@ -417,7 +419,7 @@
 .offer_card_header_discription{
     color: var(--text_color_dark_level_2);
     font-size: 1.2rem;
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     margin-top: .4rem;
 }
